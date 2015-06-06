@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#ffdfeaf1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nanodegree_app_header"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/transparent"
+        android:height="50sp"
+        android:textStyle="bold"
+        android:textIsSelectable="true"
+        android:textSize="30dp" />
+
+    <Button
+        style="@style/Button"
+        android:text="@string/button_1"
+        android:id="@+id/button_1"
+        android:onClick="sendMessage" />
+
+    <Button
+        style="@style/Button"
+        android:text="@string/button_2"
+        android:id="@+id/button_2"
+        android:onClick="sendMessage" />
+
+    <Button
+        style="@style/Button"
+        android:text="@string/button_3"
+        android:id="@+id/button_3"
+        android:onClick="sendMessage" />
+
+    <Button
+        style="@style/Button"
+        android:text="@string/button_4"
+        android:id="@+id/button_4"
+        android:onClick="sendMessage" />
+
+    <Button
+        style="@style/Button"
+        android:text="@string/button_5"
+        android:id="@+id/button_5"
+        android:onClick="sendMessage" />
+
+    <Button
+        style="@style/Button"
+        android:text="@string/button_6"
+        android:id="@+id/button_6"
+        android:onClick="sendMessage" />
+
+</LinearLayout>
